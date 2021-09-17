@@ -3,9 +3,11 @@ from esphome import automation
 import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.components import uart
-from esphome.const import CONF_ID, CONF_TIME_ID, CONF_TRIGGER_ID, CONF_SENSOR_DATAPOINT
+from esphome.const import CONF_ID, CONF_TIME_ID, CONF_TRIGGER_ID
 
 DEPENDENCIES = ["uart"]
+
+CONF_SENSOR_DATAPOINT = "sensor_datapoint"
 
 CONF_IGNORE_MCU_UPDATE_ON_DATAPOINTS = "ignore_mcu_update_on_datapoints"
 

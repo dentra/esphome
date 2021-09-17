@@ -1,8 +1,8 @@
 from esphome.components import text_sensor
 import esphome.config_validation as cv
 import esphome.codegen as cg
-from esphome.const import CONF_ID, CONF_SENSOR_DATAPOINT
-from .. import tuya_ns, CONF_TUYA_ID, Tuya
+from esphome.const import CONF_ID
+from .. import tuya_ns, CONF_TUYA_ID, Tuya, CONF_SENSOR_DATAPOINT
 
 DEPENDENCIES = ["tuya"]
 CODEOWNERS = ["@dentra"]
